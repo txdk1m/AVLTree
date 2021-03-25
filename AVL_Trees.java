@@ -35,7 +35,7 @@ public class Lab2_AVL{
 			long endTime = System.currentTimeMillis();
 			long totalrunTime = endTime - startTime;
 			System.out.println("Runtime: " + totalrunTime + " milliseconds");
-			System.out.println("Every process has got a chance to run; Please press ìEnterî to start the next round!");
+			System.out.println("Every process has got a chance to run; Please press ‚ÄúEnter‚Äù to start the next round!");
 			pressEnterToContinue();
 			AVLTree blank_tree = new AVLTree();
 			tree_1 = tree_2;
